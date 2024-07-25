@@ -49,10 +49,27 @@ This project focuses on optimizing JDBC database applications to enhance perform
   - Original: Involved unnecessary data retrieval and processing on the client side.
   - Solution: Streamlined to execute a single, efficient SQL query, minimizing data transfer and processing time.
 
-## Contact Information
+## Contributing
 
-For more information, please reach out to me at:
+Your contributions are welcome! If you have ideas for improvements or new features:
 
-- **Email**: jayakuma006@mymail.sim.edu.sg
-- **LinkedIn**: [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
-- **GitHub**: [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
+1. **Fork the Repository**
+2. **Create a Branch:**
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Commit Changes:**
+   ```bash
+   git commit -am 'Add new feature: description'
+   ```
+4. **Push to Branch:**
+   ```bash
+   git push origin feature-branch
+   ```
+5. **Submit a Pull Request**
+
+## Contact
+
+- **Email:** [jayakuma006@mymail.sim.edu.sg](mailto:jayakuma006@mymail.sim.edu.sg)
+- **LinkedIn:** [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
+- **GitHub:** [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
