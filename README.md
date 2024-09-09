@@ -9,33 +9,33 @@ This project focuses on optimizing JDBC database applications to enhance perform
 - **Performance Analysis**: Comparison between original and optimized versions of database queries.
 - **Efficiency Improvements**: Implements best practices in handling JDBC connections and SQL queries.
 
-## Project Setup
+## Setup
 
 ### Prerequisites
 
-- Java JDK 8 or higher
-- Oracle JDBC Driver
+- **[Java JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)** or higher
+- **[Oracle JDBC Driver](https://www.oracle.com/database/technologies/appdev/jdbc.html)**
 - Access to an Oracle database
 
 ### Installation
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/akileshjayakumar/jdbc-performance-tuning
    ```
 2. Navigate to the cloned directory:
-   ```
+   ```bash
    cd jdbc-performance-tuning
    ```
 
 ### Running the Applications
 
 1. Compile the Java files:
-   ```
+   ```bash
    javac -d . src/java/*.java
    ```
 2. Run the applications:
-   ```
+   ```bash
    java -cp . java.task1
    java -cp . java.task2
    ```
@@ -45,31 +45,7 @@ This project focuses on optimizing JDBC database applications to enhance perform
 - **Task 1**: Original vs. Solution
   - Original: The application inefficiently processed large datasets on the client side.
   - Solution: Optimized to perform data aggregation on the database server, reducing processing time and system load.
+  
 - **Task 2**: Original vs. Solution
   - Original: Involved unnecessary data retrieval and processing on the client side.
   - Solution: Streamlined to execute a single, efficient SQL query, minimizing data transfer and processing time.
-
-## Contributing
-
-Your contributions are welcome! If you have ideas for improvements or new features:
-
-1. **Fork the Repository**
-2. **Create a Branch:**
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. **Commit Changes:**
-   ```bash
-   git commit -am 'Add new feature: description'
-   ```
-4. **Push to Branch:**
-   ```bash
-   git push origin feature-branch
-   ```
-5. **Submit a Pull Request**
-
-## Contact
-
-- **Email:** [jayakuma006@mymail.sim.edu.sg](mailto:jayakuma006@mymail.sim.edu.sg)
-- **LinkedIn:** [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
-- **GitHub:** [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
